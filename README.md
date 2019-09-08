@@ -22,3 +22,6 @@ Plug 'jberglinds/coc-jira-autocomplete', {'do': 'yarn install --frozen-lockfile'
     "jira.apiKey": "<Your JIRA API key>"
     ```
 3. Run `:CocRestart` to reload extension with new config
+
+## Credits
+Inspired by [mnpk/vim-jira-complete](https://github.com/mnpk/vim-jira-complete)
