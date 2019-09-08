@@ -1,11 +1,11 @@
 {
-  "name": "coc-jira-autocomplete",
+  "name": "coc-jira-complete",
   "version": "1.0.0",
   "author": "jberglinds",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jberglinds/coc-jira-autocomplete"
+    "url": "https://github.com/jberglinds/coc-jira-complete"
   },
   "main": "index.js",
   "keywords": [

@@ -52,7 +52,7 @@ exports.activate = async context => {
   }
 
   let source = {
-    name: 'jira-autocomplete',
+    name: 'jira-complete',
     triggerOnly: false,
     doComplete: async () => {
       return {

@@ -1,4 +1,4 @@
-# coc-jira-autocomplete
+# coc-jira-complete
 [coc.nvim](https://github.com/neoclide/coc.nvim) extension for autocompleting issue keys from JIRA.  
 Fetches unresolved issues assigned to your user.  
 Useful in commit messages if using the [JIRA/GitHub plugin](https://github.com/marketplace/jira-software-github).
