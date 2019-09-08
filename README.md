@@ -11,6 +11,8 @@ Useful in commit messages if using the [JIRA/GitHub plugin](https://github.com/m
 ```vim
 Plug 'jberglinds/coc-jira-autocomplete', {'do': 'yarn install --frozen-lockfile'}
 ```
+#### Using coc.nvim
+Run `:CocInstall coc-jira-complete`
 
 ### Configuring
 1. Generate an API key for your JIRA user at https://id.atlassian.com/manage/api-tokens
