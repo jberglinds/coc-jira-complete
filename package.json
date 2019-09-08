@@ -1,0 +1,51 @@
+{
+  "name": "coc-jira-autocomplete",
+  "version": "1.0.0",
+  "author": "jberglinds",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jberglinds/coc-jira-autocomplete"
+  },
+  "main": "index.js",
+  "keywords": [
+    "jira",
+    "autocomplete",
+    "coc.nvim"
+  ],
+  "engines": {
+    "coc": ">=0.0.57"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "jira.workspaceUrl": {
+          "type": "string",
+          "default": "",
+          "description": "The url of the JIRA workspace"
+        },
+        "jira.username": {
+          "type": "string",
+          "default": "",
+          "description": "Your JIRA username"
+        },
+        "jira.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API-key for your JIRA user, get one from id.atlassian.com/manage/api-tokens"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "coc.nvim": "^0.0.73",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
