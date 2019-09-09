@@ -9,7 +9,7 @@ Useful in commit messages if using the [JIRA/GitHub plugin](https://github.com/m
 ### Installing
 #### Using [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
-Plug 'jberglinds/coc-jira-autocomplete', {'do': 'yarn install --frozen-lockfile'}
+Plug 'jberglinds/coc-jira-complete', {'do': 'yarn install --frozen-lockfile'}
 ```
 #### Using coc.nvim
 Run `:CocInstall coc-jira-complete`
@@ -20,8 +20,8 @@ Run `:CocInstall coc-jira-complete`
 
     ```json
     "jira.workspaceUrl": "<URL for your JIRA workspace, w/o trailing slash>",
-    "jira.username": "<Your JIRA username>",
-    "jira.apiKey": "<Your JIRA API key>"
+    "jira.user.email": "<Your JIRA account email>",
+    "jira.user.apiKey": "<Your JIRA account API key>"
     ```
 3. Run `:CocRestart` to reload extension with new config
 

@@ -28,15 +28,15 @@
           "default": "",
           "description": "The url of the JIRA workspace"
         },
-        "jira.username": {
+        "jira.user.email": {
           "type": "string",
           "default": "",
-          "description": "Your JIRA username"
+          "description": "JIRA user email"
         },
-        "jira.apiKey": {
+        "jira.user.apiKey": {
           "type": "string",
           "default": "",
-          "description": "API-key for your JIRA user, get one from id.atlassian.com/manage/api-tokens"
+          "description": "JIRA user api key, get one from id.atlassian.com/manage/api-tokens"
         }
       }
     }
