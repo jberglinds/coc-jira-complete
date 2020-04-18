@@ -28,9 +28,9 @@ const fetchIssues = (workspaceUrl, email, apiKey) => {
 exports.activate = async context => {
   const config = workspace.getConfiguration('jira')
 
-  const workspaceUrl = config.get('workspaceUrl')
-  const email = config.get('user.email')
-  const apiKey = config.get('user.apiKey')
+  const workspaceUrl = config.get('workspaceUrl') || process.env.JIRA_WORKSPACE_URL
+  const email = config.get('user.email') || process.env.JIRA_USER_EMAIL
+  const apiKey = config.get('user.apiKey') || process.env.JIRA_USER_API_KEY
 
   if (!workspaceUrl || !email || !apiKey) {
     workspace.showMessage(
