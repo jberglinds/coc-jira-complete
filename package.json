@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "coc.nvim": "^0.0.73",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
